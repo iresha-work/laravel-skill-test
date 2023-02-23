@@ -36,7 +36,7 @@
 
                         <!--Last Name -->
                         <div class="mt-4">
-                            <x-input-label for="em_last_name" :value="__('First Name')" />
+                            <x-input-label for="em_last_name" :value="__('Last Name')" />
                             <x-text-input id="em_last_name" class="block mt-1 w-full" type="text" name="em_last_name" :value="old('em_last_name',$employee->last_name)" required  autocomplete="em_last_name" />
                             <x-input-error :messages="$errors->get('em_last_name')" class="mt-2" />
                         </div>
